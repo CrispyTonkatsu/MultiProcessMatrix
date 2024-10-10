@@ -1,0 +1,6 @@
+# ninja log v6
+38	71	1728349987967761402	matrix-child	9b998d742e33ca7
+1	38	1728349987930761178	CMakeFiles/matrix-child.dir/child-matrix.c.o	3d230151ad6344f1
+0	53	1728354386029650338	CMakeFiles/matrix-parent.dir/parent-matrix.c.o	9b319beb36b631d0
+0	14	1728355058047507509	build.ninja	c352c8ea61c39cfb
+53	86	1728354386082650790	matrix-parent	1763ec504e8599f1

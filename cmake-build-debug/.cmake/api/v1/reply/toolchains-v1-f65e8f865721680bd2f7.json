@@ -1,0 +1,56 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/include",
+						"/nix/store/wdchdh5s998z5q3fcayvpwqr6gi80alx-valgrind-3.23.0-dev/include",
+						"/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include",
+						"/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/include",
+						"/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include-fixed",
+						"/nix/store/wlavaybjbzgllhq11lib6qgr7rm8imgp-glibc-2.39-52-dev/include"
+					],
+					"linkDirectories" : 
+					[
+						"/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/lib",
+						"/nix/store/3dyw8dzj9ab4m8hv5dpyx7zii8d0w6fi-glibc-2.39-52/lib",
+						"/nix/store/dwypbg1m8bsklxhqi5j84yav0l7knay3-gcc-8.5.0-lib/lib",
+						"/nix/store/yp6j8185dlkljgcdl0xsf73dr7mv1v1y-binutils-wrapper-2.42/bin",
+						"/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0",
+						"/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib64",
+						"/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/nix/store/jc0cfciff4ysx5cc91z7kq3fain254kj-gcc-wrapper-8.5.0/bin/gcc",
+				"version" : "8.5.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

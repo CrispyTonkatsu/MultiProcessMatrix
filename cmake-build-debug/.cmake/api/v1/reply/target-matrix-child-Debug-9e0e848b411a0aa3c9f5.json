@@ -1,0 +1,137 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "matrix-child"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_compile_options"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-O2"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"isSystem" : true,
+					"path" : "/nix/store/h3i0acpmr8mrjx07519xxmidv8mpax4y-python3-3.12.5/include"
+				},
+				{
+					"isSystem" : true,
+					"path" : "/nix/store/wdchdh5s998z5q3fcayvpwqr6gi80alx-valgrind-3.23.0-dev/include"
+				},
+				{
+					"isSystem" : true,
+					"path" : "/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include"
+				},
+				{
+					"isSystem" : true,
+					"path" : "/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/include"
+				},
+				{
+					"isSystem" : true,
+					"path" : "/nix/store/zybfw2ribz4y86k928p8nbybh4cdq0if-gcc-8.5.0/lib/gcc/x86_64-unknown-linux-gnu/8.5.0/include-fixed"
+				},
+				{
+					"isSystem" : true,
+					"path" : "/nix/store/wlavaybjbzgllhq11lib6qgr7rm8imgp-glibc-2.39-52-dev/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "matrix-child::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "matrix-child",
+	"nameOnDisk" : "matrix-child",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "child-matrix.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
